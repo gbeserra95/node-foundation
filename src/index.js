@@ -42,17 +42,15 @@ app.post('/users', (request, response) => {
     username,
     todos: []
   }
-  console.log(user)
-
   users.push(user)
 
   return response.status(201).json(user)
 });
 
 app.get('/todos', checksExistsUserAccount, (request, response) => {
-  const { username } = request
+  const { user } = request
 
-  
+  return response.json(user.todos)  
 });
 
 app.post('/todos', checksExistsUserAccount, (request, response) => {
