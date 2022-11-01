@@ -41,15 +41,15 @@ This project is a task manager and has the following features.
 ### PATCH /todos/:id/done
 - **username** must be provided via header
 
-### Delete /todos/:id
+### DELETE /todos/:id
 - **username** must be provided via header
 
 ## Installation
 
-- ```bash git clone https://github.com/gbeserra95/node-foundation
-- ```bash yarn install
-- ```bash yarn dev
-- Access http://localhost:3333/ via any API platform and make the requests mentioned above.
+- `git clone https://github.com/gbeserra95/node-foundation`
+- `bash yarn install`
+- `bash yarn dev`
+- Access `http://localhost:3333/` via any API platform and make the requests mentioned above.
 
 ## Author
 
