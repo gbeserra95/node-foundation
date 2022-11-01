@@ -2,7 +2,7 @@
 
 This is a common application created in order to apply the initial concepts of NodeJS.
 
-This project is a task manager and has the following features:
+This project is a task manager and has the following features.
 
 ## Routes
 
@@ -46,16 +46,16 @@ This project is a task manager and has the following features:
 
 ## Installation
 
-- ``` git clone https://github.com/gbeserra95/node-foundation
-- ``` yarn install
-- ``` yarn dev
-- Access http://localhost:3333/ via any API platform and make the above requests.
+- ```bash git clone https://github.com/gbeserra95/node-foundation
+- ```bash yarn install
+- ```bash yarn dev
+- Access http://localhost:3333/ via any API platform and make the requests mentioned above.
 
 ## Author
 
 Created by [Gabriel Beserra](https://github.com/gbeserra95).
 
-Template by [Rocketseat Ignite](https://rocketseat.com).
+Template by [Rocketseat](https://rocketseat.com.br).
 
 Find me on [LinkedIn](https://www.linkedin.com/in/-gabrielbeserra/)!
 
